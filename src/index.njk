@@ -1,0 +1,12 @@
+{% extends "base.njk" %}
+
+{% set content %}
+<section id="book-title">
+{% renderTemplate "md" %}
+# Title of Book
+
+by Author
+
+{% endrenderTemplate %}
+</section>
+{% endset %}

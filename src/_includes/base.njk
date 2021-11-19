@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    {% block page -%}
+    <div id="page">
+      {{ content | safe }}    </div>
+    {%- endblock %}
+  </body>
+</html>
